@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web-Home-Page">
+    <meta name="keywords" content="HTML, CSS, forms, metas">
+    <meta name="author" content="Tiko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="ZETTA HOTELS" />
+    <meta property="og:type" content="Web-Home-Page" />
+    <meta property="og:url" content="https://github.com/TiKaTiiK/lesson-10" />
+    <meta property="og:image" content="https://image.shutterstock.com/image-photo/hotel-room-interior-modern-seaside-260nw-1387008533.jpg" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>lesson-10</title>
+</head>
+<body>
+    <header>
+        <div class="header-block">
+            <div class="header-image"> </div>
+            <div class="header">
+                <h4 class="header-title">Zetta Hotels</h4>
+                <nav class="navigation">
+                    <ul>
+                        <li> <a class="nav-li" href="#">HOME</a></li>
+                        <li> <a href="#">ROOMS</a> <i class="fa-solid fa-angle-down"></i></li>
+                        <li> <a href="#">RESTAURANTS</a></li>
+                        <li> <a href="#">ABOUT US</a></li>
+                        <li> <a href="#">BLOG</a></li>
+                        <li> <a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>CONTACT</h2>
+        </div>
+        <div class="contact-li">
+            <a href="#">Home</a>
+            <div class="vertical"> </div>
+            <a href="#"> Contact</a>
+        </div>
+    </header>
+    <section class="form-section">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13116453.765052607!2d-111.17669612697044!3d36.620146549146355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0ee33b2cc59bd%3A0x962c949651f19047!2sGoogle%20Fiber%20Space!5e0!3m2!1sen!2sge!4v1649286035970!5m2!1sen!2sge" width="1088" height="286" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h5 class="title-h5">contact</h5>
+        <h2 class="title-h2">Contact us to get free support</h2>
+        <form>
+            <div class="input-block">
+                <div class="left-input">
+
+                    <label for="Descr"> </label>
+                    <textarea name="message" id="Descr" placeholder="Description"></textarea>
+
+                </div>
+
+                <div class="right-input">
+
+                    <label for="subject"></label>
+                    <input class="input" type="text" id="subject" name="subject" placeholder="Subject" required="">
+                    <input class="input" type="text" id="Name" name="name" placeholder="Name / Surname" required="">
+                    
+                    <label for="email"></label>
+                    <input class="input" type="email" id="email" name="email" placeholder="Email" required="">
+                   
+                    <button class="btn">Send <i class="fa-solid fa-arrow-trend-up"></i></button>
+
+                </div>
+            </div>
+        </form>
+
+        <div class="contact-icon">
+            <div class="div-contact-icon">
+                <div class="blue-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h5 class="contact-title"> Email</h5>
+                <p class="contact-text">example@yahoo.com </p>
+                <p class="contact-text">exampleemail2@yahoo.com</p>
+            </div>
+
+            <div class="div-contact-icon">
+                <div class="blue-icon">
+                    <img class="phone" src="images/phone.png" alt="phone-image">
+                </div>
+                <h5 class="contact-title"> Phone</h5>
+                <p class="contact-text">+0 320 422 4254
+                </p>
+                <p class="contact-text"> +0 342 552 523</p>
+            </div>
+
+            <div class="div-contact-icon">
+                <div class="blue-icon">
+                    <img class="mail" src="images/Ellipse 17.png" alt="location-image">
+                </div>
+                <h5 class="contact-title"> Location</h5>
+                <p class="contact-text">Main Str Chicago Ilinois</p>
+                <p class="contact-text">Main Street New York City</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
