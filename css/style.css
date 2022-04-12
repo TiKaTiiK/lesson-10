@@ -5,7 +5,6 @@
 }
 .header-image {
     background-image: url(../images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
-    max-width: 1366px;
     width: 100%;
     height: 324px;
     background-repeat: no-repeat;
@@ -23,6 +22,7 @@
     position: absolute;
     top: 30px;
     left: 139px;
+    right: 139px;
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif
@@ -42,8 +42,6 @@ ul {
 .nav-li {
     color: #5863F8;
 }
-
-
 li:nth-child(1) {
     margin-right: 49px;
 }
@@ -51,24 +49,18 @@ li:nth-child(1) {
 li:nth-child(2) {
     margin-right: 60px;
 }
-
 li:nth-child(3) {
     margin-right: 47px;
 }
-
 li:nth-child(4) {
     margin-right: 49px;
 }
-
 li:nth-child(5) {
     margin-right: 49px;
 }
-
 .fa-solid {
     color: #FFFFFF;
-    margin-left: 5.5px;
 }
-
 a {
     color: #FFFFFF
 }
@@ -79,7 +71,6 @@ a {
     color: #FFFFFF;
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
-    font-weight: extra-bold;
 }
 .contact-li {
     position: absolute;
@@ -89,7 +80,6 @@ a {
     font-size: 14px;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    font-weight: medium;
 }
 .vertical {
     height: 19px;
@@ -105,6 +95,7 @@ a {
     max-width: 1088px;
     width: 100%;
     margin-bottom: 90px;
+    font-family: 'Poppins', sans-serif;
 }
 .map {
     margin-top: 50px;
@@ -124,7 +115,6 @@ a {
     font-weight: bold;
     color: #5863F8;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
 }
 .title-h2 {
     font-size: 42px;
@@ -133,7 +123,6 @@ a {
     width: 100%;
     margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
-    font-weight: extra-bold;
     padding-top: 7px;
 }
 
@@ -209,7 +198,7 @@ a {
     width: 59px;
     height: 58px;
     border-radius: 180px;
-    padding: 20px;
+    padding:  19px;
 }
 .contact-title {
     font-size: 18px;
@@ -226,3 +215,155 @@ a {
     font-family: 'Poppins', sans-serif;
     padding: 3px;
 }
+
+/* photos-section styles */
+.photos-section{
+    margin: 0 auto;
+    width: 100%;
+}
+.photos {
+    margin-left: 139px;
+    text-transform: uppercase;
+}
+.photos1 {
+    max-width: 565px;
+    margin-left: 139px;
+}
+.image-block {
+    display: flex;
+    justify-content: space-between;
+}
+i:hover {
+    opacity: 60%;
+}
+img:hover {
+    opacity: 60%;
+}
+
+/* footer styles */
+footer {
+    width: 100%;
+    background-color: #000000;
+    height: 395px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-block {
+    padding: 90px 201px 40px 139px;
+    display: flex;
+    margin-bottom: 54px;
+}
+
+/* footer-block1 styles */
+.title1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-p {
+    color: #B1B1B1;
+    width: 260px;
+    font-size: 14px;
+    font-weight: medium;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.Icon-class {
+    display: flex;
+}
+.icon {
+    background-color: #3B5998;
+    width: 35px;
+    height: 35px;
+    border-radius: 150%;
+    padding: 11px;
+    margin-right: 9px;   
+}
+.twit {
+    background-color: #55ACEE;
+    padding: 9px;
+}
+.G {
+    background-color: #DC4E41;
+    padding: 9px;
+    margin-right:  0;
+}
+.fa-facebook-f {
+    width: 10px;
+    height: 22px;
+    color: #ffffff;
+}
+.fa-twitter {
+    width: 20px;
+    height: 16px;
+    color: #ffffff;
+}
+.fa-google-plus-g {
+    width: 23px;
+    height: 14px;
+    color: #ffffff;
+}
+.footer-block1 {
+    /* width: 260px; */
+    margin-right: 220px;
+}
+
+/* footer-block2 styles  */
+.footer-block2 {
+    margin-right: 180px;
+}
+.title2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 103px;
+}
+.link-word {
+    font-size: 14px;
+    color: #5863F8;
+}
+
+/* footer-block3 styles  */
+.footer-block3 {
+    margin: 0 auto;
+    width: 198px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-icons {
+    display: flex;
+    gap: 14px;
+}
+.fa-regular {
+    color: #5863F8;
+}
+.contact-word {
+    color: white;
+    font-size: 14px;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-p {
+    color: #B1B1B1;
+    font-size: 14px;
+    margin-left: 139px;
+}
+.web {
+    color: #5863F8;
+    font-size: 14px;
+    margin-right: 139px;
+}
+span {
+    color: #5863F8;
+}
+
